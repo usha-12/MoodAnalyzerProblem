@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9029fb7d-0fca-466e-a909-838814d1cbbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/exception/MoodAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/exception/MoodAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/exception/MoodAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/exception/MoodAnalyserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/210_RPF/JunitTestUserRegistation"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -45,7 +46,7 @@
       <recent name="com.brideglabz.exception" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MoodAnalyserTest">
     <configuration name="MoodAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brideglabz.exception.MoodAnalyser" />
       <module name="MoodAnalyzer" />
@@ -59,8 +60,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoodAnalyserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoodAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brideglabz.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brideglabz.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.brideglabz.exception.MoodAnalyserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoodAnalyserTest.givenMessage_WhenProper_ShouldReturnSad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoodAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brideglabz.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brideglabz.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.brideglabz.exception.MoodAnalyserTest" />
+      <option name="METHOD_NAME" value="givenMessage_WhenProper_ShouldReturnSad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoodAnalyserTest" />
+        <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenProper_ShouldReturnSad" />
         <item itemvalue="Application.MoodAnalyser" />
       </list>
     </recent_temporary>
