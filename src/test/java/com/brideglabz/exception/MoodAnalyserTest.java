@@ -20,10 +20,16 @@ public class MoodAnalyserTest {
         String result = moodanalyser.analyseMood();
         Assertions.assertEquals(result,"Sad");
     }
+    @Test
+    public void givenMessage_WhenProper_ShouldReturnHappy() {
+        MoodAnalyser moodanalyser = new MoodAnalyser("I am in happy Mood");
+        String result = moodanalyser.analyseMood();
+        Assertions.assertEquals(result,"Happy");
+    }
 }
-/*Given “I am in Sad
+/*Given “I am in Any
 Mood” message
-Should Return SAD
-
-analyseMood method can just return
-SAD to pass this Test Case (TC)*/
+Should Return HAPPY
+To make the Test case pass
+analyseMood method need to check
+for Sad else return HAPPY*/

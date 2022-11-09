@@ -5,8 +5,7 @@ public class MoodAnalyser {
     public MoodAnalyser(String message) {
         this.message = message;
         analyseMood();
-    }
-    public String getMessage() {
+    }public String getMessage() {
         return message;
     }
     public void setMessage(String message) {
