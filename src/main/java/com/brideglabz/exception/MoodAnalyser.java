@@ -1,5 +1,4 @@
 package com.brideglabz.exception;
-
 public class MoodAnalyser {
     public static String message;
     public MoodAnalyser(String message) {

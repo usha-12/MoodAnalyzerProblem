@@ -19,13 +19,20 @@ public class MoodAnalyserTest {
         MoodAnalyser moodanalyser = new MoodAnalyser("I am in Sad Mood");
         String result = moodanalyser.analyseMood();
         Assertions.assertEquals(result,"Sad");
+
+    }
+    @Test
+    public void givenMessage_ContainsAny_init_ShouldReturnHappy() {
+        MoodAnalyser moodanalyser = new MoodAnalyser("I am in Happy Mood");
+        String result = moodanalyser.analyseMood();
+        Assertions.assertEquals(result,"Happy");
     }
 
 }
-/*Given “I am in Sad
+/*Given “I am in Happy
 Mood” message in
 Constructor Should
 Return SAD
 To pass this Test Case when calling
 analyseMood method with no params
-should return SAD*/
+should return HAPPY*/
