@@ -28,14 +28,15 @@ public class MoodAnalyserTest {
         Assertions.assertEquals(result,"Happy");
     }
     @Test
-    public void givenMessage_Null_ShouldReturnExceptionHandled() {
+    public void givenMessage_Null_ShouldReturnHappy() {
         MoodAnalyser moodanalyser = new MoodAnalyser(null);
         String result = moodanalyser.analyseMood();
-        Assertions.assertEquals(result,"Exception Handled");
+        Assertions.assertEquals(result,"Happy");
     }
 
 }
-/*Handle Exception if
-User Provides Invalid
-Mood
-- Like NULL*/
+/*Given Null Mood
+Should Return Happy
+To make this Test Case pass Handle
+NULL Scenario using try catch and
+return Happy*/
