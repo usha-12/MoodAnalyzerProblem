@@ -1,21 +1,24 @@
 package com.brideglabz.exception;
 
 public class MoodAnalyser {
-    public static String analyseMood(String message) {
+    public static String message;
+    public MoodAnalyser(String message) {
+        this.message = message;
+        analyseMood();
+    }
+    public String getMessage() {
+        return message;
+    }
+    public void setMessage(String message) {
+        this.message = message;
+    }
+    public String analyseMood() {
+
         if (message.toLowerCase().contains("sad")) {
             return "Sad";
         } else if (message.toLowerCase().contains("happy")) {
-            return "Happy";
         }
-        return null;
+        return "Happy";
     }
 
-    public static void main(String[] args) {
-        String mood = MoodAnalyser.analyseMood("User is Happy");
-        System.out.println(mood);
-        mood = MoodAnalyser.analyseMood("User is Sad");
-        System.out.println(mood);
-    }
-
-    }
-//
+}
