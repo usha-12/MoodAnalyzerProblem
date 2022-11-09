@@ -27,12 +27,15 @@ public class MoodAnalyserTest {
         String result = moodanalyser.analyseMood();
         Assertions.assertEquals(result,"Happy");
     }
+    @Test
+    public void givenMessage_Null_ShouldReturnExceptionHandled() {
+        MoodAnalyser moodanalyser = new MoodAnalyser(null);
+        String result = moodanalyser.analyseMood();
+        Assertions.assertEquals(result,"Exception Handled");
+    }
 
 }
-/*Given “I am in Happy
-Mood” message in
-Constructor Should
-Return SAD
-To pass this Test Case when calling
-analyseMood method with no params
-should return HAPPY*/
+/*Handle Exception if
+User Provides Invalid
+Mood
+- Like NULL*/

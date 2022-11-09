@@ -38,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/210_RPF/JunitTestUserRegistation"
+    "last_opened_file_path": "C:/Users/User/Desktop/210_RPF/MoodAnalyzer"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,6 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoodAnalyserTest.givenMessage_Null_ShouldReturnExceptionHandled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoodAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brideglabz.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brideglabz.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.brideglabz.exception.MoodAnalyserTest" />
+      <option name="METHOD_NAME" value="givenMessage_Null_ShouldReturnExceptionHandled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoodAnalyserTest.givenMessage_WhenProper_ShouldReturnSad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodAnalyzer" />
       <extension name="coverage">
@@ -94,6 +110,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MoodAnalyserTest" />
+        <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_Null_ShouldReturnExceptionHandled" />
         <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenProper_ShouldReturnSad" />
         <item itemvalue="Application.MoodAnalyser" />
       </list>
