@@ -29,6 +29,10 @@ public class MoodAnalyserTest {
         String ans = object.analyseMood();
         Assertions.assertEquals("HAPPY", ans);
         System.out.println(ans);
+    public void givenMessage_Null_ShouldReturnHappy() {
+        MoodAnalyser moodanalyser = new MoodAnalyser(null);
+        String result = moodanalyser.analyseMood();
+        Assertions.assertEquals(result,"Happy");
     }
 }
 /*Inform user if entered
@@ -54,3 +58,8 @@ Handle Empty Mood Scenario throw
 MoodAnalysisException and inform
 user of the EmptyMood
 HINT: Use Enum to EMPTY or NULL*/
+/*Given Null Mood
+Should Return Happy
+To make this Test Case pass Handle
+NULL Scenario using try catch and
+return Happy*/

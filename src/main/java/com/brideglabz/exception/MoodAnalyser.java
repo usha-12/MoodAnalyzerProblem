@@ -13,6 +13,7 @@ public class MoodAnalyser {
 
     public String analyseMood() throws MoodAnalyserException {
         try {
+
             if (this.message.contains(null))
                 return "SAD";
             else
@@ -22,6 +23,15 @@ public class MoodAnalyser {
                 throw new MoodAnalyserException("Please Enter Valid Mood , Don't enter NUll",MoodAnalyserException.Exception_Type.NULL);
             else
                 throw new MoodAnalyserException("Please Enter Valid Mood ,Don' keep Empty",MoodAnalyserException.Exception_Type.EMPTY);
+
+            if (message.toLowerCase().contains("sad")) {
+                return "Sad";
+            } else {
+                return "Happy";
+            }
+        } catch (NullPointerException e) {
+            return "Happy";
+
         }
     }
 }
